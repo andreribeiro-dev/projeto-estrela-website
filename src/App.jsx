@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './pages/home/home'
-import About from './pages/about/about'
-import Gallery from './pages/gallery/gallery'
-import Statute from './pages/statute/statute'
-import Help from './pages/help/help'
-import Contact from './pages/contact/contact'
-import NotFound from './pages/notFound/notFound'
-import Navbar from './components/navbar'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+import Gallery from './pages/gallery/Gallery'
+import Statute from './pages/statute/Statute'
+import Help from './pages/help/Help'
+import Contact from './pages/contact/Contact'
+import NotFound from './pages/notFound/NotFound'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
