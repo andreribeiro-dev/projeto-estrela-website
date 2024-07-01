@@ -1,10 +1,10 @@
 
 
 
-const Header = () => {
+const header = () => {
   return (
-    <div>Header</div>
+    <div>header</div>
   )
 }
 
-export default Header
+export default header

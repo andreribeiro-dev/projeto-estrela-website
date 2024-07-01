@@ -1,9 +1,9 @@
-import Header from "../../components/Header"
+import header from '../../components/header';
 
-import './home.css'
+import './home.css';
 const home = () => {
   return (
-    <Header/>
+    <header/>
   )
 }
 
