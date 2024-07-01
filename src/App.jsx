@@ -14,13 +14,17 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Home/>
-      <About/>
-      <Gallery/>
-      <Statute/>
-      <Help/>
-      <Contact/>
-      <NotFound/>
+      <Routes>
+        <Route index element ={<Home/>}/> 
+        <Route path='about' element ={<About/>}/>
+        <Route path='gallery' element ={<Gallery/>}/> 
+        <Route path='statute' element ={<Statute/>}/> 
+        <Route path='help' element ={<Help/>}/> 
+        <Route path='contact' element ={<Contact/>}/> 
+        <Route path='*' element ={<NotFound/>}/>  
+        
+      </Routes>
+      
     </BrowserRouter>
   )
 }
