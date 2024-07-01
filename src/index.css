@@ -1,0 +1,61 @@
+*, *::before, *::after {  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #B0733E;
+    --secondary-color: #F4A261;
+    --background-color: #bdbaba;
+    --text-color: #333;
+    --navbar-color: #4b3019;
+    --navbar-text-color: #f3f3f3;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+
+    --transition: all 500ms ease;
+}
+
+/*  GENERAL STYLES */
+body {
+    font-family: 'Merriweather',sans-serif;
+    color: var(--text-color);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: var(--navbar-text-color);
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
