@@ -1,7 +1,7 @@
 nav {
     height: 5rem;
     width: 100vw;
-    background-color: var(--navbar-color);
+    /* background-color: var(--navbar-color); */
     display: grid;
     place-items: center;
     position: fixed;
