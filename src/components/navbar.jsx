@@ -23,10 +23,16 @@ const Navbar = () => {
             <ul className={`nav_links ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>  
                 {
                     links.map(({name, path}, index) => {
+                        if (name === "Apoie") {
+                            return (
+                                <li key={index}>
+                                    <a href={path} id="btn-apoie" className="btn-apoie" target="_blank" rel="noopener noreferrer">{name}</a>
+                                </li>
+                            )
+                        }
                         return (
                             <li key={index}>
                                 <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''} onClick={() => setIsNavShowing(prev => !prev)} >{name}</NavLink>
-
                             </li>
                         )
                     })
@@ -44,3 +50,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

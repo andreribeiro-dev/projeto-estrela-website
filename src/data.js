@@ -26,6 +26,10 @@ export const links = [
     {
         name: "Contato",
         path: '/contact'
+    },
+    {
+        name: "Apoie",
+        path: 'https://apoia.se/projetoestrela?fbclid=PAZXh0bgNhZW0CMTEAAabr7ibne_4GSwYqgNocLF0-CV206K6XOSIkuXUpCZm_lSfX01Q9x0R0PzU_aem_9ThaYjyOlOUqPs40thsr2A'
     }
 ]
 
