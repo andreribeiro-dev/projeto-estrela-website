@@ -60,7 +60,12 @@ a.btn-apoie:hover {
     color: var(--btn-text-transition) !important;
 }
 
+/* Dark Nav */
 
+.sticky {
+    background-color: var(--navbar-color);
+    transition: background-color 2.5s;
+}
 
 
 /* MEDIA QUERIES (medium and small screens) */

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom'
 import Logo from '../images/logo.png'
 import {links} from '../data'
@@ -10,12 +10,22 @@ import './navbar.css'
 
 const Navbar = () => {
     const [isNavShowing, setIsNavShowing] = useState(false);
+    const [sticky, setSticky] = useState(false);
 
-
-
+    useEffect(() => {
+      const handleScroll = () => {
+        setSticky(window.scrollY > 70);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
 
   return (
-    <nav>
+    <nav className={`dark_nav ${sticky ? 'sticky' :''} `}> 
+
         <div className="container nav_container">
            <Link to= "/" className='logo' onClick={() => setIsNavShowing(false)}>
             <img src={Logo} alt="Nav Logo" />
