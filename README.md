@@ -14,7 +14,7 @@ O Site está Hospedado inicialmente na Vercel. [Acesse o site clicando aqui!](ht
 - 
 ## Autor
 
-- André Ribeiro -
+André Ribeiro 
 
 Entre em contato comigo:
 - 📧 Email: [andreribeiro.dev@gmail.com](mailto:andreribeiro.dev@gmail.com) - Vamos bater um papo!
