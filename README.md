@@ -11,7 +11,7 @@ O Site está Hospedado inicialmente na Vercel. [Acesse o site clicando aqui!](ht
 - JavaScript
 - React
 - Node.js
-- 
+ 
 ## Autor
 
 André Ribeiro 
