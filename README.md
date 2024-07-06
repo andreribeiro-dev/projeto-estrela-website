@@ -11,7 +11,10 @@ O Site está Hospedado inicialmente na Vercel. [Acesse o site clicando aqui!](ht
 - JavaScript
 - React
 - Node.js
- 
+
+## Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para mais detalhes.
+
 ## Autor
 
 André Ribeiro 
